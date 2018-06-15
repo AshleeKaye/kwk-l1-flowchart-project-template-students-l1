@@ -1,0 +1,72 @@
+body {
+  margin:0px;
+  background-color:#F1EEE6;
+}
+
+#left {
+  margin:0px 0px 10px 0px;
+  width:75%;
+  height:100%;
+  float:left;
+}
+
+#header {
+  width:100%;
+  background-color:#111;
+  font-size:200%; font-family:
+  'Permanent Marker', cursive;
+  color:white;
+}
+  
+#header p {
+  margin:10px 10px 5px 10px;
+}
+
+#header_img{
+  color:white;
+}
+
+#header_img img {
+  width:100%;
+  height:550px;
+}
+
+#header_img span {
+  position:absolute;
+  top:400px;
+  left:350px;
+  background-color:#111;
+  font-size:250%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#main{width:95%; margin:0px 2.5% 0px 2.5%;}
+
+.prompt_wrapper{
+  border:solid 1px #111;
+  position:relative;
+  color:#111;
+}
+.prompt_wrapper:hover .prompt_reveal{
+  opacity:0;
+}
+.prompt_reveal{
+  position:absolute;
+  background-color:#111;
+  width:100%;
+  height:100%;
+}
+.prompt_container{
+  font-size:150%;
+}
+
+
+#right {
+  position:fixed;
+  right:0px;
+  top:10px;
+  width:24%;
+  height:800px;
+  background-color:#111;
+  color:white;
+}
